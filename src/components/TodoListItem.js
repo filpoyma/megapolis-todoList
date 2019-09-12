@@ -28,11 +28,11 @@ class TodoListItem extends Component {
       <li className="list-group-item">{`Задача ${index + 1}: `}
         <span className={classNames}>{todo.content}</span>
         <div className="todo-list-item-list-del float-right ml-2"
-              id={todo.id} onClick={this.handleDelTodo}> del </div>
+              id={todo.id} onClick={this.handleDelTodo}>удалить</div>
         <div className="todo-list-item-list-done float-right ml-2"
-              id={todo.id} onClick={this.handleDoneTodo}> done </div>
+              id={todo.id} onClick={this.handleDoneTodo}> сделано </div>
         <div className="todo-list-item-list-edit float-right ml-2"
-              id={todo.id} onClick={() => this.handleEditGTodo(todo)}> edit </div>
+              id={todo.id} onClick={() => this.handleEditGTodo(todo)}> ред </div>
       </li>
     );
   }

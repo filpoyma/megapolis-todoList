@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import TodoApp from './TodoApp';
+import TodoApp from './components/TodoApp';
 import * as serviceWorker from './serviceWorker';
 
 import { Provider } from 'react-redux'
