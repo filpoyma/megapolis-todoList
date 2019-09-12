@@ -1,0 +1,21 @@
+
+.todo-list-item-list-del {
+    color: red;
+    cursor: pointer;
+}
+
+.todo-list-item-list-done {
+    color: green;
+    cursor: pointer;
+}
+
+.todo-list-item-list-edit {
+    color: #004180;
+    cursor: pointer;
+}
+
+.todo-list-item.done{
+    text-decoration: line-through;
+
+}
+
