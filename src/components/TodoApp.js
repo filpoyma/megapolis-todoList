@@ -1,8 +1,8 @@
 import React from "react";
 import AddTodo from "./AddTodo";
-import TodoListContainer from "../containers/TodoListContainer"
-import './TodoApp.css'
-import connect from 'react-redux/es/connect/connect';
+import TodoListContainer from "../containers/TodoListContainer";
+import "./TodoApp.css";
+import { connect } from "react-redux";
 
 function TodoApp(props) {
   return (
@@ -15,7 +15,7 @@ function TodoApp(props) {
 }
 
 const mapStateToProps = (state, ownProps) => ({
-  todos: state.todos
+  todos: state.todos,
 });
 
-export default connect(mapStateToProps)(TodoApp)
+export default connect(mapStateToProps)(TodoApp);
